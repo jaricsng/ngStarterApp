@@ -1,4 +1,4 @@
-var app = angular.module('StarterApp', ['ngMaterial', 'ngMessages']);
+var app = angular.module('StarterApp', ['ngMaterial', 'ngMessages', 'ui.router']);
 
 app.controller('AppCtrl', ['$scope', '$mdBottomSheet', '$mdSidenav', '$mdDialog', function($scope, $mdBottomSheet, $mdSidenav, $mdDialog) {
 
@@ -26,14 +26,19 @@ app.controller('AppCtrl', ['$scope', '$mdBottomSheet', '$mdSidenav', '$mdDialog'
         title: 'Messages',
         icon: 'communication:ic_message_24px'
     }];
+
     $scope.admin = [{
+        link: 'showListBottomSheet($event)',
+        title: 'Settings',
+        icon: 'action:ic_settings_24px'
+    }, {
         link: '',
         title: 'Trash',
         icon: 'action:ic_delete_24px'
     }, {
-        link: 'showListBottomSheet($event)',
-        title: 'Settings',
-        icon: 'action:ic_settings_24px'
+        link: '',
+        title: 'About',
+        icon: 'communication:ic_contacts_24px'
     }];
 
     // Mock activity

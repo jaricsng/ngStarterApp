@@ -109,6 +109,8 @@ For more detailed information on troubleshooting your application, see the [Trou
 
 [Angular ui-router](https://angular-ui.github.io/ui-router/site/#/api/ui.router)
 
+[Material Icons](http://google.github.io/material-design-icons/)
+
 [IBM Bluemix](https://bluemix.net/)  
 [IBM  Bluemix Documentation](https://www.ng.bluemix.net/docs/)  
 [IBM Bluemix Developers Community](http://developer.ibm.com/bluemix)
