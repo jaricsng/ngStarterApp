@@ -12,7 +12,7 @@ You can use this app in  browser.
 You can deploy your own instance of demo app to Bluemix. 
 To do this, you can either use the _Deploy to Bluemix_ button for an automated deployment or follow the steps below to create and deploy your app manually.
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/jaricsng/ngStarterApp.git)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=2)
 
 1. Create a Bluemix Account.
 
