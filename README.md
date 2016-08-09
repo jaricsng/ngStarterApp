@@ -109,7 +109,7 @@ For more detailed information on troubleshooting your application, see the [Trou
 [cloud_foundry_url]: https://github.com/cloudfoundry/cli
 [download_node_url]: https://nodejs.org/download/
 
-[Material Design](https://stories.uplabs.com/tagged/material-design)
-[Angular Material](https://material.angularjs.org/latest/)
-[AngularJS](https://angularjs.org/)
-[Angular ui-router](https://angular-ui.github.io/ui-router/site/#/api/ui.router)
+[Material Design]:(https://stories.uplabs.com/tagged/material-design)
+[Angular Material]:(https://material.angularjs.org/latest/)
+[AngularJS]:(https://angularjs.org/)
+[Angular ui-router]:(https://angular-ui.github.io/ui-router/site/#/api/ui.router)
