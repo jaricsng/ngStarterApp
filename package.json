@@ -1,0 +1,29 @@
+{
+    "name": "ngStarterApp",
+    "version": "0.0.2",
+    "private": false,
+    "description": "A starter app in nodejs with Angular Material for Bluemix.",
+    "engines": {
+        "node": "4. x "
+    },
+    "scripts": {
+        "start": "node app",
+        "pretest": "eslint .",
+        "posttest": "nsp check",
+        "postinstall": "bower install"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "cfenv": "^1.0.3",
+        "express": "3.4.7",
+        "request": "^2.51.0"
+    },
+    "author": [{
+        "name": "Jaric Sng",
+        "email": "jaric.sng@gmail.com"
+    }],
+    "license": "Apache-2.0"
+}
