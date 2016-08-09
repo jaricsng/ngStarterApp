@@ -101,16 +101,21 @@ The primary source of debugging information for your Bluemix app is the logs. To
 For more detailed information on troubleshooting your application, see the [Troubleshooting section](https://www.ng.bluemix.net/docs/troubleshoot/tr.html) in the Bluemix documentation.
 
 ### Useful links
-[Material Design]:(https://stories.uplabs.com/tagged/material-design)
-[Angular Material]:(https://material.angularjs.org/latest/)
-[AngularJS]:(https://angularjs.org/)
-[Angular ui-router]:(https://angular-ui.github.io/ui-router/site/#/api/ui.router)
+[Material Design](https://stories.uplabs.com/tagged/material-design)
+
+[Angular Material](https://material.angularjs.org/latest/)
+
+[AngularJS](https://angularjs.org/)
+
+[Angular ui-router](https://angular-ui.github.io/ui-router/site/#/api/ui.router)
 
 [IBM Bluemix](https://bluemix.net/)  
 [IBM  Bluemix Documentation](https://www.ng.bluemix.net/docs/)  
 [IBM Bluemix Developers Community](http://developer.ibm.com/bluemix)
 
-[bluemix_signup_url]: (https://console.ng.bluemix.net/registration/(
-[cloud_foundry_url]: (https://github.com/cloudfoundry/cli)
-[download_node_url]: (https://nodejs.org/download/)
+[bluemix_signup_url](https://console.ng.bluemix.net/registration/)
+
+[cloud_foundry_url](https://github.com/cloudfoundry/cli)
+
+[download_node_url](https://nodejs.org/download/)
 
