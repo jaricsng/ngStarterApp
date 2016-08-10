@@ -12,7 +12,7 @@ var appEnv = cfenv.getAppEnv();
 var weather_host = appEnv.services["weatherinsights"] ?
     appEnv.services["weatherinsights"][0].credentials.url // Insights for Weather credentials passed in
     :
-    ""; // or copy your credentials url here for standalone
+    "https://baa3efe9-011c-4a60-b5a4-0fd6077d1ff8:PPAVRhnXnd@twcservice.mybluemix.net"; // or copy your credentials url here for standalone
 
 function weatherAPI(path, qs, done) {
     var url = weather_host + path;
@@ -48,7 +48,7 @@ function weatherAPI(path, qs, done) {
 }
 
 app.get('/api/forecast/daily', function(req, res) {
-    var geocode = (req.query.geocode || "45.43,-75.68").split(",");
+    var geocode = (req.query.geocode || "1.27,103.84").split(",");
     weatherAPI("/api/weather/v1/geocode/" + geocode[0] + "/" + geocode[1] + "/forecast/daily/10day.json", {
         units: req.query.units || "m",
         language: req.query.language || "en"
@@ -64,7 +64,7 @@ app.get('/api/forecast/daily', function(req, res) {
 });
 
 app.get('/api/forecast/hourly', function(req, res) {
-    var geocode = (req.query.geocode || "45.43,-75.68").split(",");
+    var geocode = (req.query.geocode || "1.27,103.84").split(",");
     weatherAPI("/api/weather/v1/geocode/" + geocode[0] + "/" + geocode[1] + "/forecast/hourly/48hour.json", {
         units: req.query.units || "m",
         language: req.query.language || "en"
@@ -74,6 +74,7 @@ app.get('/api/forecast/hourly', function(req, res) {
         } else {
             console.log("24 hours Forecast");
             result.forecasts.length = 24; // we require only 24 hours for UI
+            console.log("current temp: " + result.forecasts[0].temp);
             res.json(result);
         }
     });
